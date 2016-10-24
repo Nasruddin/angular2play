@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="col-md-4 animated flipInY" *ngFor="let item of data">
+        <md-card>
+            <md-card-title-group>
+                <img md-card-sm-image [src]="item.img">
+                <md-card-title>{{item.name}}</md-card-title>
+                <md-card-subtitle>{{item.title}}</md-card-subtitle>
+            </md-card-title-group>
+        </md-card>
+    </div>
+</div>
